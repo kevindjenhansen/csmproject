@@ -4,36 +4,38 @@
 <head>
     <title>Community Science Museum</title>
     <meta charset="UTF-8">
-    <meta name="description" content="This is the home page for the Community Science Museum">
+    <meta name="description" content="Explore the wonders of science at the Community Science Museum. Discover interactive exhibits, events, and more.">
+    <meta name="keywords" content="Community Science Museum, Science, Exhibits, Events, Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style>
 </head> 
 
 <body>
     <header>
         <div class="nav-container">
-            <a href="./index.html" aria-label="Homepage">
+            <a href="./index.html" aria-label="Homepage - Community Science Museum">
                 <img src="./assets/images/general_assets/csmlogo.png" alt="Community Science Museum Logo" class="nav-logo">
             </a>
             <nav aria-label="Main navigation" class="nav-links">
                 <ul>
-                    <li><a href="./html/explore.html">Explore</a></li>
-                    <li><a href="./html/exhibition.html">Exhibition</a></li>
-                    <li><a href="./html/events.html">Events</a></li>
-                    <li><a href="./html/visit.html">Visit</a></li>
-                    <li><a href="../html/support.html">Support</a></li>
+                    <li><a href="./html/explore.html" aria-label="Navigate to Explore Page">Explore</a></li>
+                    <li><a href="./html/exhibition.html" aria-label="Navigate to Exhibition Page">Exhibition</a></li>
+                    <li><a href="./html/events.html" aria-label="Navigate to Events Page">Events</a></li>
+                    <li><a href="./html/visit.html" aria-label="Navigate to Visit Page">Visit</a></li>
+                    <li><a href="../html/support.html" aria-label="Navigate to Support Page">Support</a></li>
                 </ul>
             </nav>
             <input type="checkbox" id="menuToggle" class="menu-toggle">
-            <label for="menuToggle" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+            <label for="menuToggle" class="hamburger-icon" aria-label="Menu Toggle Button"><i class="fas fa-bars"></i></label>
             <nav class="mobile-nav">
                 <ul class="mobile-nav-links">
-                    <li><a href="./html/explore.html">Explore</a></li>
-                    <li><a href="./html/exhibition.html">Exhibition</a></li>
-                    <li><a href="./html/events.html">Events</a></li>
-                    <li><a href="./html/visit.html">Visit</a></li>
-                    <li><a href="./html/support.html">Support</a></li>
+                    <li><a href="./html/explore.html" aria-label="Navigate to Explore Page">Explore</a></li>
+                    <li><a href="./html/exhibition.html" aria-label="Navigate to Exhibition Page">Exhibition</a></li>
+                    <li><a href="./html/events.html" aria-label="Navigate to Events Page">Events</a></li>
+                    <li><a href="./html/visit.html" aria-label="Navigate to Visit Page">Visit</a></li>
+                    <li><a href="./html/support.html" aria-label="Navigate to Support Page">Support</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,32 +56,32 @@
 
         <section class="link-section">
             <div class="link-square">
-                <a href="./html/explore.html">
-                    <img src="./assets/images/index_assets/explorelogo.jpg" alt="Explore Image">
+                <a href="./html/explore.html" aria-label="Explore Museum Sections">
+                    <img src="./assets/images/index_assets/explorelogo.jpg" alt="Icon for Explore Section">
                     <p>Explore</p>
                 </a>
             </div>
             <div class="link-square">
-                <a href="./html/exhibition.html">
-                    <img src="./assets/images/index_assets/exhibitionlogo.jpg" alt="Exhibition Image">
+                <a href="./html/exhibition.html" aria-label="Learn About Our Exhibitions">
+                    <img src="./assets/images/index_assets/exhibitionlogo.jpg" alt="Icon for Exhibition Section">
                     <p>Exhibition</p>
                 </a>
             </div>
             <div class="link-square">
-                <a href="./html/events.html">
-                    <img src="./assets/images/index_assets/eventslogo.jpg" alt="Events Image">
+                <a href="./html/events.html" aria-label="View Upcoming Events">
+                    <img src="./assets/images/index_assets/eventslogo.jpg" alt="Icon for Events Section">
                     <p>Events</p>
                 </a>
             </div>
             <div class="link-square">
-                <a href="./html/visit.html">
-                    <img src="./assets/images/index_assets/visitlogo.jpg" alt="Visit Image">
+                <a href="./html/visit.html" aria-label="Plan Your Visit">
+                    <img src="./assets/images/index_assets/visitlogo.jpg" alt="Icon for Visit Section">
                     <p>Visit</p>
                 </a>
             </div>
             <div class="link-square">
-                <a href="./html/support.html">
-                    <img src="./assets/images/index_assets/supportlogo.jpg" alt="Support Image">
+                <a href="./html/support.html" aria-label="Support the Museum">
+                    <img src="./assets/images/index_assets/supportlogo.jpg" alt="Icon for Support Section">
                     <p>Support</p>
                 </a>
             </div>
@@ -87,8 +89,8 @@
     </main>
 
     <footer>
-        <div class="footer-container">
-            <nav class="footernav-1">
+        <div class="footer-container" aria-labelledby="footer-info">
+            <nav class="footernav-1" aria-label="Social Media Links">
                 <h1>Follow Us</h1>
                 <p>Stay connected with the museum! Follow us on social media for the latest updates.</p>
                 <div class="footer-icons">
@@ -98,7 +100,7 @@
                 </div>
             </nav>
             
-            <nav class="footernav-2">
+            <nav class="footernav-2" aria-label="Contact Information">
                 <h1>Quick Contact</h1>
                 <address>
                     <i class="fas fa-map-marker-alt"></i>Community Science Museum<br>
@@ -111,7 +113,7 @@
                 </ul>
             </nav>
             <div class="footer-copyright">
-                <a href="./index.html" aria-label="Homepage Icon"><img src="./assets/images/general_assets/csmlogo.png" alt="Community Science Museum Logo" class="footer-logo"></a>
+                <a href="./index.html" aria-label="Homepage"><img src="./assets/images/general_assets/csmlogo.png" alt="Community Science Museum Logo" class="footer-logo"></a>
                 <p class="footer-copyright">Copyrightclaim &copy; 2024</p>
             </div>
         </div>
