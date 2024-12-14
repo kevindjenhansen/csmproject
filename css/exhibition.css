@@ -87,7 +87,7 @@ header {
   position: relative;
   text-align: center;
   color: orange;
-  background-image: url('../assets/images/exhibition_assets/exhibitionheader.jpg'); /* Replace with your background image */
+  background-image: url('../assets/images/exhibition_assets/exhibitionheader.jpg'); 
   background-size: cover;
   background-position: center;
   height: 300px;
