@@ -2,69 +2,82 @@
 <html lang="en">
 
 <head>
-    <title>RainyDays</title>
+    <title>Community Science Museum</title>
     <meta charset="UTF-8">
-    <meta name="description" content="This is the cart page for the clothing brand RainyDays">
+    <meta name="description" content="Explore the wonders of science at the Community Science Museum. Discover interactive exhibits, events, and more.">
+    <meta name="keywords" content="Community Science Museum, Science, Exhibits, Events, Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/support.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style>
 </head> 
 
 <body>
     <header>
         <div class="nav-container">
-            <a href="../index.html" aria-label="Homepage">
-                <img src="../assets/images/RainyDays_Logo.png" alt="RainyDays Logo" class="nav-logo">
+            <a href="../index.html" aria-label="Homepage - Community Science Museum">
+                <img src="../assets/images/general_assets/csmlogo.png" alt="Community Science Museum Logo" class="nav-logo">
             </a>
             <nav aria-label="Main navigation" class="nav-links">
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../html/about.html">About</a></li>
-                    <li><a href="../html/contact.html">Contact</a></li>
-                    <li><a href="../html/cart.html">Cart</a></li>
+                    <li><a href="../html/explore.html" aria-label="Navigate to Explore Page">Explore</a></li>
+                    <li><a href="../html/exhibition.html" aria-label="Navigate to Exhibition Page">Exhibition</a></li>
+                    <li><a href="../html/events.html" aria-label="Navigate to Events Page">Events</a></li>
+                    <li><a href="../html/visit.html" aria-label="Navigate to Visit Page">Visit</a></li>
+                    <li><a href="../html/support.html" aria-label="Navigate to Support Page">Support</a></li>
                 </ul>
             </nav>
             <input type="checkbox" id="menuToggle" class="menu-toggle">
-            <label for="menuToggle" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+            <label for="menuToggle" class="hamburger-icon" aria-label="Menu Toggle Button"><i class="fas fa-bars"></i></label>
             <nav class="mobile-nav">
                 <ul class="mobile-nav-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../html/about.html">About</a></li>
-                    <li><a href="../html/contact.html">Contact</a></li>
-                    <li><a href="../html/cart.html">Cart</a></li>
+                    <li><a href="../html/explore.html" aria-label="Navigate to Explore Page">Explore</a></li>
+                    <li><a href="../html/exhibition.html" aria-label="Navigate to Exhibition Page">Exhibition</a></li>
+                    <li><a href="../html/events.html" aria-label="Navigate to Events Page">Events</a></li>
+                    <li><a href="../html/visit.html" aria-label="Navigate to Visit Page">Visit</a></li>
+                    <li><a href="../html/support.html" aria-label="Navigate to Support Page">Support</a></li>
                 </ul>
             </nav>
         </div>
-    </header>      
+    </header>       
 
-    <main class="product-container">
-        <div class="product-image-container">
-            <img src="../assets/images/RainyDays_Jacket1.jpg" alt="Rain Jacket with Glider" class="product-image">
+    <main>
+        <div class="main-header">
+            <h1>Get Involved</h1>
         </div>
-        <div class="product-details">
-            <h1 class="product-title">RAIN JACKET WITH GLIDER</h1>
-            <p class="product-price">599,00 kr</p>
-            <label for="size-select" class="size-name">Select Size:</label>
-            <select id="size-select" class="size-select">
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
-            </select>
-            <a href="../html/checkout.html" class="cart-button">Add to Cart</a>
-            <div class="item-description">
-                <h2>Item Description:</h2>
-                <p>A windproof jacket with a glider fit, made from lightweight yet durable material. It features a high collar and a sleek front zipper. Perfect for outdoor activities, providing comfort and protection in various weather conditions.</p>
-                <p><strong>Material:</strong> Acrylic 65%, Polyamide 25%, Wool 10%</p>
-            </div>
+
+        <div class="section-1">
+            <h2>Support</h2>
+            <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community. 
+
+                You can also support us by donating items of interest to the museum's collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.
+            </p>
+            <img src="../assets/images/support_assets/support.jpg">
         </div>
-    </main>
+
+        <div class="section-2">
+            <h2>Volunteer</h2>
+            <p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.
+
+                You can help volunteer in a number of different spheres. Please contact us if you'd like to find out more about how you can get involved.
+            </p>
+            <img src="../assets/images/support_assets/volunteer.jpeg">
+        </div>
+
+        <div class="section-3">
+            <h2>Internships</h2>
+            <p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.
+
+                You'll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.         
+            </p>
+            <img src="../assets/images/support_assets/internship.jpg">
+        </div>
 
     <footer>
-        <div class="footer-container">
-            <nav class="footernav-1">
+        <div class="footer-container" aria-labelledby="footer-info">
+            <nav class="footernav-1" aria-label="Social Media Links">
                 <h1>Follow Us</h1>
-                <p>Stay connected with RainyDays! Follow us on social media for the latest updates, 
-                outdoor tips, and exclusive deals on your favorite rain jackets.</p>
+                <p>Stay connected with the museum! Follow us on social media for the latest updates.</p>
                 <div class="footer-icons">
                     <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter social-icon"></i></a>
                     <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook social-icon"></i></a>
@@ -72,21 +85,21 @@
                 </div>
             </nav>
             
-            <nav class="footernav-2">
+            <nav class="footernav-2" aria-label="Contact Information">
                 <h1>Quick Contact</h1>
                 <address>
-                    <i class="fas fa-map-marker-alt"></i> RainyDays Store<br>
-                    <span>Skogveien 12<br></span>
+                    <i class="fas fa-map-marker-alt"></i>Community Science Museum<br>
+                    <span>Holmenkollveien 38<br></span>
                     <span>0456 Oslo, Norway</span>
                 </address>
                 <ul>
-                    <li><i class="fas fa-envelope"></i> Rainydays@gmail.com</li>
+                    <li><i class="fas fa-envelope"></i>csmuseum@gmail.com</li>
                     <li><i class="fas fa-phone"></i> +47 55 23 89 12</li>
                 </ul>
             </nav>
             <div class="footer-copyright">
-                <a href="../index.html" aria-label="Homepage Icon"><img src="../assets/images/RainyDays_Logo.png" alt="RainyDays Logo" class="footer-logo"></a>
-                <p class="footer-copyright">Copyright &copy; 2024</p>
+                <a href="../index.html" aria-label="Homepage"><img src="../assets/images/general_assets/csmlogo.png" alt="Community Science Museum Logo" class="footer-logo"></a>
+                <p class="footer-copyright">Copyrightclaim &copy; 2024</p>
             </div>
         </div>
     </footer>
